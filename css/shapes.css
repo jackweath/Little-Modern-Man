@@ -1,0 +1,112 @@
+.lmc > div {
+	border-radius: 2px;
+	padding: 8px;
+	display: inline-block;
+	box-sizing: border-box;
+	position: absolute;
+	margin: 1.5em;
+}
+
+#cpu {
+	background: #C0C0C0;
+	border-radius: 2px;
+	top: 0;
+	left: 0;
+}
+#cpu span {
+	display: block;
+}
+
+.lmc h4 {
+	margin: 0;
+	font-weight: normal;
+}
+
+#cpu textarea {
+	color: black;
+	margin-left: 4px;
+}
+#cpu td {
+	vertical-align: middle;
+	display: table-cell;
+	line-height: normal; 
+}
+
+#cpu td > textarea {
+	margin-bottom: 0;
+}
+
+#memory {
+	background: #2F4F2F;
+	right: 0;
+	top: 0;
+}
+
+#memory td {
+	padding: 2px;
+}
+
+#alu {
+	background: #9a9a9a;
+	text-align: center;
+	padding: 16px;
+	top: 270px;
+	left: 0;
+}
+
+#io {
+	left: 0;
+	width: 30%;
+}
+
+#io > #input {
+	float: top;
+	display: block;
+}
+
+#io > #output {
+	height: 80%;
+	float: bottom;
+}
+
+#io textarea, #io .faketext {
+	color: black;
+	margin-top: 0.5em;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+#connections {
+	z-index: 2;
+	margin: 1.5em;
+	position: absolute;
+	top: 0;
+	pointer-events:none;
+	right: 0;
+}
+
+.data {
+	text-align: center;
+	z-index: 99;
+	border-radius: 50% !important;
+	min-width: 2rem;
+	opacity: 0.85;
+	background: #FFFF00;
+	color: black;
+	font-weight: 500;
+}
+
+.pchighlight {
+	background: rgba(255, 0, 0, 0.5);
+}
+
+#log {
+	border-radius: 4px;
+	background: black;
+	color: #00ce00;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	min-height: 100px;
+}
